@@ -22,7 +22,12 @@
 // Console.WriteLine($"[{string.Join(", ", runningSum)}]");
 
 
-GetConcatenation gc = new GetConcatenation();
-int[] nums = { 1, 2, 3, 4 };
-int[] concatenated = gc.GetConcatenationMethod(nums);
-Console.WriteLine($"[{string.Join(", ", concatenated)}]");  
+// GetConcatenation gc = new GetConcatenation();
+// int[] nums = { 1, 2, 3, 4 };
+// int[] concatenated = gc.GetConcatenationMethod(nums);
+// Console.WriteLine($"[{string.Join(", ", concatenated)}]");  
+
+SmallerNumbersThanCurrentOptimal snc = new SmallerNumbersThanCurrentOptimal();
+int[] nums = { 8, 1, 2, 2, 3 };
+int[] result = snc.SmallerNumbersThanCurrent(nums);
+Console.WriteLine($"[{string.Join(", ", result)}]");
