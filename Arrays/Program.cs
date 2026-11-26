@@ -34,7 +34,12 @@
 // int[] result = snc.SmallerNumbersThanCurrent(nums);
 // Console.WriteLine($"[{string.Join(", ", result)}]");
 
-FindMaxConsecutiveOnesFromArray fmc = new FindMaxConsecutiveOnesFromArray();
-int[] nums = { 1, 1, 0, 1, 1, 1 };
-int maxConsecutive = fmc.FindMaxConsecutiveOnes(nums);
-Console.WriteLine(maxConsecutive);
+// FindMaxConsecutiveOnesFromArray fmc = new FindMaxConsecutiveOnesFromArray();
+// int[] nums = { 1, 1, 0, 1, 1, 1 };
+// int maxConsecutive = fmc.FindMaxConsecutiveOnes(nums);
+// Console.WriteLine(maxConsecutive);
+
+FindNumbersWithEvenDigitsFromArray fne = new FindNumbersWithEvenDigitsFromArray();
+int[] nums2 = { 12, 345, 2, 6, 7896 };
+int evenCount = fne.FindNumbers(nums2);
+Console.WriteLine(evenCount);
