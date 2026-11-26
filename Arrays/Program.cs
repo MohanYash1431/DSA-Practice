@@ -16,7 +16,13 @@
 // int maxProfit = bs.stockBuySell(prices, n);
 // Console.WriteLine(maxProfit);
 
-RunningSumOf2dArray rs = new RunningSumOf2dArray();
+// RunningSumOf2dArray rs = new RunningSumOf2dArray();
+// int[] nums = { 1, 2, 3, 4 };
+// int[] runningSum = rs.RunningSum(nums);
+// Console.WriteLine($"[{string.Join(", ", runningSum)}]");
+
+
+GetConcatenation gc = new GetConcatenation();
 int[] nums = { 1, 2, 3, 4 };
-int[] runningSum = rs.RunningSum(nums);
-Console.WriteLine($"[{string.Join(", ", runningSum)}]");
+int[] concatenated = gc.GetConcatenationMethod(nums);
+Console.WriteLine($"[{string.Join(", ", concatenated)}]");  
