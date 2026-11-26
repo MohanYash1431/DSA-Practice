@@ -1,4 +1,6 @@
-﻿// BruteForce bf = new BruteForce();
+﻿
+
+// BruteForce bf = new BruteForce();
 // int[] nums = { 2, 7, 11, 15 };
 // int target = 9;
 // int[] result = bf.TwoSum(nums, target);
@@ -27,7 +29,12 @@
 // int[] concatenated = gc.GetConcatenationMethod(nums);
 // Console.WriteLine($"[{string.Join(", ", concatenated)}]");  
 
-SmallerNumbersThanCurrentOptimal snc = new SmallerNumbersThanCurrentOptimal();
-int[] nums = { 8, 1, 2, 2, 3 };
-int[] result = snc.SmallerNumbersThanCurrent(nums);
-Console.WriteLine($"[{string.Join(", ", result)}]");
+// SmallerNumbersThanCurrentOptimal snc = new SmallerNumbersThanCurrentOptimal();
+// int[] nums = { 8, 1, 2, 2, 3 };
+// int[] result = snc.SmallerNumbersThanCurrent(nums);
+// Console.WriteLine($"[{string.Join(", ", result)}]");
+
+FindMaxConsecutiveOnesFromArray fmc = new FindMaxConsecutiveOnesFromArray();
+int[] nums = { 1, 1, 0, 1, 1, 1 };
+int maxConsecutive = fmc.FindMaxConsecutiveOnes(nums);
+Console.WriteLine(maxConsecutive);
