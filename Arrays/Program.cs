@@ -60,8 +60,16 @@
 // mz.MoveZeroes(nums5);
 // Console.WriteLine($"[{string.Join(", ", nums5)}]"); 
 
-RemoveDuplicatesFromSortedArray rd = new RemoveDuplicatesFromSortedArray();
-int[] nums6 = { 1, 1, 2 };
-int newLength = rd.RemoveDuplicates(nums6);
-Console.WriteLine(newLength);
-Console.WriteLine($"[{string.Join(", ", nums6[..newLength])}]");    
+// RemoveDuplicatesFromSortedArray rd = new RemoveDuplicatesFromSortedArray();
+// int[] nums6 = { 1, 1, 2 };
+// int newLength = rd.RemoveDuplicates(nums6);
+// Console.WriteLine(newLength);
+// Console.WriteLine($"[{string.Join(", ", nums6[..newLength])}]");    
+
+MaximumSumOfSubArrayBruteForce obj = new MaximumSumOfSubArrayBruteForce();
+int[] nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+int maxSubArray = obj.MaxSubArray(nums);
+ Console.WriteLine(maxSubArray);
+Console.WriteLine($"[{string.Join(", ", nums[..maxSubArray])}]");   
+
+
