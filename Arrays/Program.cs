@@ -39,7 +39,17 @@
 // int maxConsecutive = fmc.FindMaxConsecutiveOnes(nums);
 // Console.WriteLine(maxConsecutive);
 
-FindNumbersWithEvenDigitsFromArray fne = new FindNumbersWithEvenDigitsFromArray();
-int[] nums2 = { 12, 345, 2, 6, 7896 };
-int evenCount = fne.FindNumbers(nums2);
-Console.WriteLine(evenCount);
+// FindNumbersWithEvenDigitsFromArray fne = new FindNumbersWithEvenDigitsFromArray();
+// int[] nums2 = { 12, 345, 2, 6, 7896 };
+// int evenCount = fne.FindNumbers(nums2);
+// Console.WriteLine(evenCount);
+
+// ContainsDuplicateInArray cda = new ContainsDuplicateInArray();   
+// int[] nums3 = { 1, 2, 3, 4, 1 };
+// bool hasDuplicate = cda.ContainsDuplicate(nums3);
+// Console.WriteLine(hasDuplicate);
+
+FindMissingNumber fmn = new FindMissingNumber();
+int[] nums4 = { 3, 0, 1 };
+int missingNumber = fmn.MissingNumber(nums4);
+Console.WriteLine(missingNumber);
