@@ -49,7 +49,13 @@
 // bool hasDuplicate = cda.ContainsDuplicate(nums3);
 // Console.WriteLine(hasDuplicate);
 
-FindMissingNumber fmn = new FindMissingNumber();
-int[] nums4 = { 3, 0, 1 };
-int missingNumber = fmn.MissingNumber(nums4);
-Console.WriteLine(missingNumber);
+// FindMissingNumber fmn = new FindMissingNumber();
+// int[] nums4 = { 3, 0, 1 };
+// int missingNumber = fmn.MissingNumber(nums4);
+// Console.WriteLine(missingNumber);
+
+
+MoveZeroesToTheRightInArray mz = new MoveZeroesToTheRightInArray();
+int[] nums5 = { 0, 1, 0, 3, 12 };
+mz.MoveZeroes(nums5);
+Console.WriteLine($"[{string.Join(", ", nums5)}]"); 
