@@ -73,9 +73,13 @@
 // Console.WriteLine($"[{string.Join(", ", nums[..maxSubArray])}]");   
 
 
-MaxSubArrayOptimalUsingKadensAlgo kadens = new MaxSubArrayOptimalUsingKadensAlgo();
-int[] nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
-int maxSubArrayOptimal = kadens.MaxSubArray(nums);
-Console.WriteLine(maxSubArrayOptimal);
-Console.WriteLine($"[{string.Join(", ", nums[..maxSubArrayOptimal])}]");        
+// MaxSubArrayOptimalUsingKadensAlgo kadens = new MaxSubArrayOptimalUsingKadensAlgo();
+// int[] nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+// int maxSubArrayOptimal = kadens.MaxSubArray(nums);
+// Console.WriteLine(maxSubArrayOptimal);
+// Console.WriteLine($"[{string.Join(", ", nums[..maxSubArrayOptimal])}]");        
 
+ProductExceptSelfBruteForce pe = new ProductExceptSelfBruteForce();
+int[] nums7 = { 1, 2, 3, 4 };
+int[] productResult = pe.ProductExceptSelf(nums7);
+Console.WriteLine($"[{string.Join(", ", productResult)}]");     
