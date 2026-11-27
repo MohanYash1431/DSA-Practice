@@ -66,10 +66,16 @@
 // Console.WriteLine(newLength);
 // Console.WriteLine($"[{string.Join(", ", nums6[..newLength])}]");    
 
-MaximumSumOfSubArrayBruteForce obj = new MaximumSumOfSubArrayBruteForce();
-int[] nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
-int maxSubArray = obj.MaxSubArray(nums);
- Console.WriteLine(maxSubArray);
-Console.WriteLine($"[{string.Join(", ", nums[..maxSubArray])}]");   
+// MaximumSumOfSubArrayBruteForce obj = new MaximumSumOfSubArrayBruteForce();
+// int[] nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+// int maxSubArray = obj.MaxSubArray(nums);
+//  Console.WriteLine(maxSubArray);
+// Console.WriteLine($"[{string.Join(", ", nums[..maxSubArray])}]");   
 
+
+MaxSubArrayOptimalUsingKadensAlgo kadens = new MaxSubArrayOptimalUsingKadensAlgo();
+int[] nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+int maxSubArrayOptimal = kadens.MaxSubArray(nums);
+Console.WriteLine(maxSubArrayOptimal);
+Console.WriteLine($"[{string.Join(", ", nums[..maxSubArrayOptimal])}]");        
 
