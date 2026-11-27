@@ -55,7 +55,13 @@
 // Console.WriteLine(missingNumber);
 
 
-MoveZeroesToTheRightInArray mz = new MoveZeroesToTheRightInArray();
-int[] nums5 = { 0, 1, 0, 3, 12 };
-mz.MoveZeroes(nums5);
-Console.WriteLine($"[{string.Join(", ", nums5)}]"); 
+// MoveZeroesToTheRightInArray mz = new MoveZeroesToTheRightInArray();
+// int[] nums5 = { 0, 1, 0, 3, 12 };
+// mz.MoveZeroes(nums5);
+// Console.WriteLine($"[{string.Join(", ", nums5)}]"); 
+
+RemoveDuplicatesFromSortedArray rd = new RemoveDuplicatesFromSortedArray();
+int[] nums6 = { 1, 1, 2 };
+int newLength = rd.RemoveDuplicates(nums6);
+Console.WriteLine(newLength);
+Console.WriteLine($"[{string.Join(", ", nums6[..newLength])}]");    
