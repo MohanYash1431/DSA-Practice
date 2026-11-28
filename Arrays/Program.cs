@@ -79,7 +79,12 @@
 // Console.WriteLine(maxSubArrayOptimal);
 // Console.WriteLine($"[{string.Join(", ", nums[..maxSubArrayOptimal])}]");        
 
-ProductExceptSelfBruteForce pe = new ProductExceptSelfBruteForce();
+// ProductExceptSelfBruteForce pe = new ProductExceptSelfBruteForce();
+// int[] nums7 = { 1, 2, 3, 4 };
+// int[] productResult = pe.ProductExceptSelf(nums7);
+// Console.WriteLine($"[{string.Join(", ", productResult)}]");     
+
+ProductExceptSelfOptimised peo = new ProductExceptSelfOptimised();
 int[] nums7 = { 1, 2, 3, 4 };
-int[] productResult = pe.ProductExceptSelf(nums7);
-Console.WriteLine($"[{string.Join(", ", productResult)}]");     
+int[] productResultOptimised = peo.ProductExceptSelf(nums7);
+Console.WriteLine($"[{string.Join(", ", productResultOptimised)}]");    
